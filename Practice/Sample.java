@@ -1,3 +1,4 @@
+package Practice;
 public class Sample {
 
     static int num=10;
