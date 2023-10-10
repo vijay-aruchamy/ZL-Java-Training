@@ -11,6 +11,13 @@ public class SortProblem {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+        sort(arr);
+        
+        System.out.println(Arrays.toString(arr));
+        sc.close();
+    }
+
+    private static void sort(int[] arr) {
         int zeroCount=0,oneCount=0,twoCount=0;
         for(int i=0;i<arr.length;i++){
             switch(arr[i]){
@@ -38,7 +45,5 @@ public class SortProblem {
             arr[j++]=2;
             twoCount--;
         }
-        System.out.println(Arrays.toString(arr));
-        sc.close();
     }
 }
