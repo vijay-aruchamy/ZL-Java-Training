@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Problems;
 import java.util.HashMap;
 import java.util.Map;
 public class ValidTreeProblem {
