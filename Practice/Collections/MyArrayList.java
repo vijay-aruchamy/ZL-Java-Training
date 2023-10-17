@@ -15,9 +15,9 @@ public class MyArrayList<E> {
         if (size == elements.length) {
             ensureCapacity();
         }
-        // System.out.println("ina dd");
         elements[size++] = e;
     }
+    // public void remove();
     // public void add(int index, E e) {
     //     size++;
     //     if (size == elements.length) {
@@ -52,7 +52,7 @@ public class MyArrayList<E> {
         l1.add(35);
         l1.add(45);
         l1.add(55);
-        l1.add(2,65);
+        // l1.add(2,65);
         System.out.println(Arrays.toString(elements));
     }
 }

@@ -35,22 +35,22 @@ public class ArrayListPractice {
 
         s1.add("Hi");
         s1.add("Hello");
-        s1.add("HIHello");
+        s1.add("Hello");
         s1.add("Bye");
-        // s1.remove("Hello");
-        // s1.remove(2);
+        s1.remove("Hello");
+        s1.remove(2);
         int size=s1.size();
         System.out.println(s1 +" "+size);
 
-        c1.add('a');
-        c1.add('b');
-        c1.add('c');
-        c1.add('d');
+        // c1.add('a');
+        // c1.add('b');
+        // c1.add('c');
+        // c1.add('d');
 
-        f1.add(1.1f);
-        Collections.sort(c1);
-        System.out.println(n1);
-        Collections.reverse(c1);
-        System.out.println(n1);
+        // f1.add(1.1f);
+        // Collections.sort(c1);
+        // System.out.println(n1);
+        // Collections.reverse(c1);
+        // System.out.println(n1);
         }
 }

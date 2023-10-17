@@ -16,6 +16,7 @@ public class SetPractice {
         set1.add(88);
         Set<Integer>set2=new HashSet<>(set1);
         Set<Integer>set3=new TreeSet<>(set1);
+        
         // System.out.println(set1.size());
         // System.out.println(set1.remove(5));
         System.out.println("linkedhashset"+set1);
