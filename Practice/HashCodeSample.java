@@ -9,6 +9,7 @@ public class HashCodeSample {
         String s1=new String("abc");
         String s2="abc";
         s1.hashCode();
+        s2.hashCode();
         // String s2=new String("abc");
         ArrayList<Integer>a1=new ArrayList<>();
         a1.add(3);
@@ -16,7 +17,7 @@ public class HashCodeSample {
         a1.add(23);
         ArrayList<Integer>a2=new ArrayList<>();
         a2.add(3);
-        a2.add(23);
+        a2.add(13);
         a2.add(23);
         int arr1[]={1,2,3};
         int arr2[]={4,5,6};
